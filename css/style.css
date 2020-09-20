@@ -18,29 +18,68 @@ body {
 	margin: 20px;
 }
 
-#link {
+.has-border{
+	margin-left: 20px;
+	border: 6px solid #c342ff;
+}
+
+.page-home p{
+	text-align: center;
+}
+
+.page-home h1 {
+	margin-top: 200px;
+}
+
+.page-about p {
+	margin: 20px;
+}
+
+.page-about div p a {
+	color: #a3a3a3;
+	text-decoration: underline;
+}
+
+.page-educations img,dl {
+	margin: 20px;
+}
+
+.page-internships dt{
+	font-size: 40px;
+}
+
+.page-socials #yt {
 	color: #a3a3a3;
 	text-decoration: underline;
 	margin-left: 110px;
 }
 
-#logo{
-	margin-left: 20px;
-	border: 6px solid #c342ff;
-}
-
-video {
-	margin: 20px;
-	float: left;
-	border: 6px solid #c342ff;
-}
-
-div h1 {
+.page-socials p {
+	float: right;
 	text-align: center;
+}
+
+#me-and-hacksmith {
+	float: right;
+	margin: 20px;
+}
+
+#my-games {
+	float: left;
+	margin: 20px;
 }
 
 header {
 	background-color: #c342ff;
+}
+
+h1 {
+	text-align: center;
+}
+
+video {
+	float: left;
+	margin: 20px 0px;
 }
 
 nav ul {
@@ -59,11 +98,4 @@ nav li {
 nav a{
 	text-decoration: none;
 	color: #441559;
-}
-
-div dl {
-	margin: 20px;
-}
-dl img {
-	margin: 20px;
 }
